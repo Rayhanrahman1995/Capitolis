@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="FrameTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+		<!--	<class name="capitolis.qa.checkbox.CheckBoxes" />
+			 <class name="capitolis.qa.basicauth.BasicAuth" />
+			<class name="capitolis.qa.frames.Frames" />
+			<class name="capitolis.qa.dynamiccontrols.DynamicControls" /> -->
+			<class name="capitolis.qa.jqueryuimenus.JQUeryUIMenus" />  
+		</classes>
+	</test>
+</suite>
