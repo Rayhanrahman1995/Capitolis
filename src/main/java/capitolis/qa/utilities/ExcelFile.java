@@ -10,6 +10,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import capitolis.qa.reports.Java_Logger;
+import capitolis.qa.reports.LoggerClass;
 
 public class ExcelFile {
 
@@ -44,18 +45,16 @@ public class ExcelFile {
 							workbook = new XSSFWorkbook(new FileInputStream(excelPath));
 							sheet = (XSSFSheet) workbook.getSheetAt(sheetNum);
 						} else {
-							Java_Logger.getLog("File Not Supported");
-							// System.out.println("File Not Supported");
+							LoggerClass.log("File Not Supported");
 						}
 					} catch (IOException e) {
 						e.printStackTrace();
-						Java_Logger.getLog("File Not Found");
-						// System.out.println("File Not Found");
+						LoggerClass.log("File Not Found");
 					}
-					Java_Logger.getLog("File has been found");
+					LoggerClass.log("File has been found");
 					break;
 				} else {
-					Java_Logger.getLog("File Not Found");
+					LoggerClass.log("File not found");
 				}
 			}
 		}
@@ -64,8 +63,7 @@ public class ExcelFile {
 		for (int i = 0; i < cells; i++) {
 			if (sheet.getRow(0).getCell(i).getStringCellValue().equalsIgnoreCase("tax")) {
 				taxValue = sheet.getRow(1).getCell(i).getNumericCellValue();
-				Java_Logger.getLog("tax: " + taxValue);
-				System.out.println("tax: " + taxValue);
+				LoggerClass.log("tax: " + taxValue);
 			}
 		}
 	}
@@ -86,13 +84,11 @@ public class ExcelFile {
 		if (isDirectory) {
 			File[] files = file.listFiles();
 			for (File eachFile : files) {
-				Java_Logger.getLog(eachFile.getName());
-				// System.out.println(eachFile.getName());
+				LoggerClass.log(eachFile.getName());
 				if (eachFile.getName().equalsIgnoreCase("menu.xls")) {
-					// Java_Logger.getLog(eachFile.getAbsolutePath());
+					LoggerClass.log(eachFile.getAbsolutePath());
 					excelSheetPath = eachFile.getAbsolutePath();
-					Java_Logger.getLog("File has been found");
-					// System.out.println("File has been found");
+					LoggerClass.log("File has been found");
 					break;
 				}
 			}
