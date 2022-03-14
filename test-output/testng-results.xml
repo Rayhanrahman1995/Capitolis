@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11255" started-at="2022-03-13T16:25:26 EDT" finished-at="2022-03-13T16:25:37 EDT">
+  <suite name="Suite" duration-ms="722126" started-at="2022-03-13T21:51:31 EDT" finished-at="2022-03-13T22:03:33 EDT">
     <groups>
     </groups>
-    <test name="FrameTest" duration-ms="11255" started-at="2022-03-13T16:25:26 EDT" finished-at="2022-03-13T16:25:37 EDT">
-      <class name="capitolis.qa.jqueryuimenus.JQUeryUIMenus">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@17695df3]" name="setUp" is-config="true" duration-ms="4209" started-at="2022-03-13T16:25:26 EDT" finished-at="2022-03-13T16:25:30 EDT">
+    <test name="FrameTest" duration-ms="722126" started-at="2022-03-13T21:51:31 EDT" finished-at="2022-03-13T22:03:33 EDT">
+      <class name="capitolis.qa.basicauth.BasicAuth">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.basicauth.BasicAuth@71a794e5]" name="setUp" is-config="true" duration-ms="1899" started-at="2022-03-13T21:54:17 EDT" finished-at="2022-03-13T21:54:19 EDT">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,422 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="taxValueTest()[pri:5, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@17695df3]" name="taxValueTest" duration-ms="6858" started-at="2022-03-13T16:25:30 EDT" finished-at="2022-03-13T16:25:37 EDT">
+        <test-method status="PASS" signature="basicAuthButtonTest()[pri:1, instance:capitolis.qa.basicauth.BasicAuth@71a794e5]" name="basicAuthButtonTest" duration-ms="30311" started-at="2022-03-13T21:54:19 EDT" finished-at="2022-03-13T21:54:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicAuthButtonTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.basicauth.BasicAuth@71a794e5]" name="quttingBrowser" is-config="true" duration-ms="110" started-at="2022-03-13T21:54:50 EDT" finished-at="2022-03-13T21:54:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.basicauth.BasicAuth@71a794e5]" name="setUp" is-config="true" duration-ms="1870" started-at="2022-03-13T21:54:50 EDT" finished-at="2022-03-13T21:54:52 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="authenticationPopUpHandleTest()[pri:2, instance:capitolis.qa.basicauth.BasicAuth@71a794e5]" name="authenticationPopUpHandleTest" duration-ms="30589" started-at="2022-03-13T21:54:52 EDT" finished-at="2022-03-13T21:55:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticationPopUpHandleTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.basicauth.BasicAuth@71a794e5]" name="quttingBrowser" is-config="true" duration-ms="107" started-at="2022-03-13T21:55:22 EDT" finished-at="2022-03-13T21:55:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.basicauth.BasicAuth@71a794e5]" name="setUp" is-config="true" duration-ms="1918" started-at="2022-03-13T21:55:22 EDT" finished-at="2022-03-13T21:55:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validationAfterPopUpHandleTest()[pri:3, instance:capitolis.qa.basicauth.BasicAuth@71a794e5]" name="validationAfterPopUpHandleTest" duration-ms="35628" started-at="2022-03-13T21:55:24 EDT" finished-at="2022-03-13T21:56:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationAfterPopUpHandleTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.basicauth.BasicAuth@71a794e5]" name="quttingBrowser" is-config="true" duration-ms="110" started-at="2022-03-13T21:56:00 EDT" finished-at="2022-03-13T21:56:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+      </class> <!-- capitolis.qa.basicauth.BasicAuth -->
+      <class name="capitolis.qa.frames.Frames">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.frames.Frames@76329302]" name="setUp" is-config="true" duration-ms="1923" started-at="2022-03-13T21:56:00 EDT" finished-at="2022-03-13T21:56:02 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="framesButtonTest()[pri:1, instance:capitolis.qa.frames.Frames@76329302]" name="framesButtonTest" duration-ms="30228" started-at="2022-03-13T21:56:02 EDT" finished-at="2022-03-13T21:56:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- framesButtonTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.frames.Frames@76329302]" name="quttingBrowser" is-config="true" duration-ms="107" started-at="2022-03-13T21:56:32 EDT" finished-at="2022-03-13T21:56:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.frames.Frames@76329302]" name="setUp" is-config="true" duration-ms="1982" started-at="2022-03-13T21:56:32 EDT" finished-at="2022-03-13T21:56:34 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="iFramesButtonTest()[pri:2, instance:capitolis.qa.frames.Frames@76329302]" name="iFramesButtonTest" duration-ms="61113" started-at="2022-03-13T21:56:34 EDT" finished-at="2022-03-13T21:57:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iFramesButtonTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.frames.Frames@76329302]" name="quttingBrowser" is-config="true" duration-ms="111" started-at="2022-03-13T21:57:35 EDT" finished-at="2022-03-13T21:57:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.frames.Frames@76329302]" name="setUp" is-config="true" duration-ms="2106" started-at="2022-03-13T21:57:35 EDT" finished-at="2022-03-13T21:57:38 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clearTextBox()[pri:3, instance:capitolis.qa.frames.Frames@76329302]" name="clearTextBox" duration-ms="91151" started-at="2022-03-13T21:57:38 EDT" finished-at="2022-03-13T21:59:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearTextBox -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.frames.Frames@76329302]" name="quttingBrowser" is-config="true" duration-ms="217" started-at="2022-03-13T21:59:09 EDT" finished-at="2022-03-13T21:59:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.frames.Frames@76329302]" name="setUp" is-config="true" duration-ms="2001" started-at="2022-03-13T21:59:09 EDT" finished-at="2022-03-13T21:59:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="nameInTextBox()[pri:4, instance:capitolis.qa.frames.Frames@76329302]" name="nameInTextBox" duration-ms="91225" started-at="2022-03-13T21:59:11 EDT" finished-at="2022-03-13T22:00:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameInTextBox -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.frames.Frames@76329302]" name="quttingBrowser" is-config="true" duration-ms="216" started-at="2022-03-13T22:00:42 EDT" finished-at="2022-03-13T22:00:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+      </class> <!-- capitolis.qa.frames.Frames -->
+      <class name="capitolis.qa.jqueryuimenus.JQUeryUIMenus">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="setUp" is-config="true" duration-ms="1796" started-at="2022-03-13T22:03:00 EDT" finished-at="2022-03-13T22:03:02 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="jQueryUIMenusButtonTest()[pri:1, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="jQueryUIMenusButtonTest" duration-ms="341" started-at="2022-03-13T22:03:02 EDT" finished-at="2022-03-13T22:03:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jQueryUIMenusButtonTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="quttingBrowser" is-config="true" duration-ms="108" started-at="2022-03-13T22:03:02 EDT" finished-at="2022-03-13T22:03:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="setUp" is-config="true" duration-ms="1738" started-at="2022-03-13T22:03:02 EDT" finished-at="2022-03-13T22:03:04 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="chooseEnabledTest()[pri:2, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="chooseEnabledTest" duration-ms="485" started-at="2022-03-13T22:03:04 EDT" finished-at="2022-03-13T22:03:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseEnabledTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="quttingBrowser" is-config="true" duration-ms="117" started-at="2022-03-13T22:03:05 EDT" finished-at="2022-03-13T22:03:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="setUp" is-config="true" duration-ms="1944" started-at="2022-03-13T22:03:05 EDT" finished-at="2022-03-13T22:03:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="chooseDownloadsTest()[pri:3, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="chooseDownloadsTest" duration-ms="1120" started-at="2022-03-13T22:03:07 EDT" finished-at="2022-03-13T22:03:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseDownloadsTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="quttingBrowser" is-config="true" duration-ms="118" started-at="2022-03-13T22:03:08 EDT" finished-at="2022-03-13T22:03:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="setUp" is-config="true" duration-ms="1940" started-at="2022-03-13T22:03:08 EDT" finished-at="2022-03-13T22:03:10 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="chooseExcelTest()[pri:4, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="chooseExcelTest" duration-ms="6258" started-at="2022-03-13T22:03:10 EDT" finished-at="2022-03-13T22:03:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseExcelTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="quttingBrowser" is-config="true" duration-ms="146" started-at="2022-03-13T22:03:16 EDT" finished-at="2022-03-13T22:03:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="setUp" is-config="true" duration-ms="1751" started-at="2022-03-13T22:03:16 EDT" finished-at="2022-03-13T22:03:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="excelFileValidationTest()[pri:5, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="excelFileValidationTest" duration-ms="6266" started-at="2022-03-13T22:03:18 EDT" finished-at="2022-03-13T22:03:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelFileValidationTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="quttingBrowser" is-config="true" duration-ms="121" started-at="2022-03-13T22:03:24 EDT" finished-at="2022-03-13T22:03:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="setUp" is-config="true" duration-ms="2021" started-at="2022-03-13T22:03:24 EDT" finished-at="2022-03-13T22:03:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="taxValueTest()[pri:6, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="taxValueTest" duration-ms="6686" started-at="2022-03-13T22:03:26 EDT" finished-at="2022-03-13T22:03:33 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- taxValueTest -->
-        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@17695df3]" name="quttingBrowser" is-config="true" duration-ms="126" started-at="2022-03-13T16:25:37 EDT" finished-at="2022-03-13T16:25:37 EDT">
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.jqueryuimenus.JQUeryUIMenus@4df828d7]" name="quttingBrowser" is-config="true" duration-ms="159" started-at="2022-03-13T22:03:33 EDT" finished-at="2022-03-13T22:03:33 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quttingBrowser -->
       </class> <!-- capitolis.qa.jqueryuimenus.JQUeryUIMenus -->
+      <class name="capitolis.qa.dynamiccontrols.DynamicControls">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="setUp" is-config="true" duration-ms="1933" started-at="2022-03-13T22:00:42 EDT" finished-at="2022-03-13T22:00:44 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dynamicControlsButtonTest()[pri:1, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="dynamicControlsButtonTest" duration-ms="30297" started-at="2022-03-13T22:00:44 EDT" finished-at="2022-03-13T22:01:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicControlsButtonTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="quttingBrowser" is-config="true" duration-ms="111" started-at="2022-03-13T22:01:15 EDT" finished-at="2022-03-13T22:01:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="setUp" is-config="true" duration-ms="1863" started-at="2022-03-13T22:01:15 EDT" finished-at="2022-03-13T22:01:17 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aCheckBoxCheckedTest()[pri:2, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="aCheckBoxCheckedTest" duration-ms="30381" started-at="2022-03-13T22:01:17 EDT" finished-at="2022-03-13T22:01:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aCheckBoxCheckedTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="quttingBrowser" is-config="true" duration-ms="108" started-at="2022-03-13T22:01:47 EDT" finished-at="2022-03-13T22:01:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="setUp" is-config="true" duration-ms="1854" started-at="2022-03-13T22:01:47 EDT" finished-at="2022-03-13T22:01:49 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="removeButtonTest()[pri:3, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="removeButtonTest" duration-ms="30487" started-at="2022-03-13T22:01:49 EDT" finished-at="2022-03-13T22:02:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeButtonTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="quttingBrowser" is-config="true" duration-ms="109" started-at="2022-03-13T22:02:19 EDT" finished-at="2022-03-13T22:02:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="setUp" is-config="true" duration-ms="1972" started-at="2022-03-13T22:02:20 EDT" finished-at="2022-03-13T22:02:22 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="messageAfterClickOnRemoveTest()[pri:4, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="messageAfterClickOnRemoveTest" duration-ms="38525" started-at="2022-03-13T22:02:22 EDT" finished-at="2022-03-13T22:03:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageAfterClickOnRemoveTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.dynamiccontrols.DynamicControls@5e25a92e]" name="quttingBrowser" is-config="true" duration-ms="108" started-at="2022-03-13T22:03:00 EDT" finished-at="2022-03-13T22:03:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+      </class> <!-- capitolis.qa.dynamiccontrols.DynamicControls -->
+      <class name="capitolis.qa.checkbox.CheckBoxes">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="setUp" is-config="true" duration-ms="5819" started-at="2022-03-13T21:51:31 EDT" finished-at="2022-03-13T21:51:37 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checKBoxButtonTest()[pri:1, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="checKBoxButtonTest" duration-ms="30414" started-at="2022-03-13T21:51:37 EDT" finished-at="2022-03-13T21:52:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checKBoxButtonTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="quttingBrowser" is-config="true" duration-ms="110" started-at="2022-03-13T21:52:07 EDT" finished-at="2022-03-13T21:52:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="setUp" is-config="true" duration-ms="1823" started-at="2022-03-13T21:52:08 EDT" finished-at="2022-03-13T21:52:09 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkBox1WithoutSelectTest()[pri:2, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="checkBox1WithoutSelectTest" duration-ms="30487" started-at="2022-03-13T21:52:09 EDT" finished-at="2022-03-13T21:52:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox1WithoutSelectTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="quttingBrowser" is-config="true" duration-ms="110" started-at="2022-03-13T21:52:40 EDT" finished-at="2022-03-13T21:52:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="setUp" is-config="true" duration-ms="1906" started-at="2022-03-13T21:52:40 EDT" finished-at="2022-03-13T21:52:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkBox2WithSelectTest()[pri:3, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="checkBox2WithSelectTest" duration-ms="30391" started-at="2022-03-13T21:52:42 EDT" finished-at="2022-03-13T21:53:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox2WithSelectTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="quttingBrowser" is-config="true" duration-ms="108" started-at="2022-03-13T21:53:12 EDT" finished-at="2022-03-13T21:53:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="setUp" is-config="true" duration-ms="1789" started-at="2022-03-13T21:53:12 EDT" finished-at="2022-03-13T21:53:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkBox1WithSelectTest()[pri:4, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="checkBox1WithSelectTest" duration-ms="30495" started-at="2022-03-13T21:53:14 EDT" finished-at="2022-03-13T21:53:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox1WithSelectTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="quttingBrowser" is-config="true" duration-ms="111" started-at="2022-03-13T21:53:45 EDT" finished-at="2022-03-13T21:53:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="setUp" is-config="true" duration-ms="1978" started-at="2022-03-13T21:53:45 EDT" finished-at="2022-03-13T21:53:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkBox2WithoutSelectTest()[pri:5, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="checkBox2WithoutSelectTest" duration-ms="30586" started-at="2022-03-13T21:53:47 EDT" finished-at="2022-03-13T21:54:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox2WithoutSelectTest -->
+        <test-method status="PASS" signature="quttingBrowser()[pri:0, instance:capitolis.qa.checkbox.CheckBoxes@3d8314f0]" name="quttingBrowser" is-config="true" duration-ms="110" started-at="2022-03-13T21:54:17 EDT" finished-at="2022-03-13T21:54:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quttingBrowser -->
+      </class> <!-- capitolis.qa.checkbox.CheckBoxes -->
     </test> <!-- FrameTest -->
   </suite> <!-- Suite -->
 </testng-results>

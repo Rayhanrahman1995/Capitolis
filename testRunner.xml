@@ -4,10 +4,10 @@
 	<test name="FrameTest">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-		<!--	<class name="capitolis.qa.checkbox.CheckBoxes" />
+			<class name="capitolis.qa.checkbox.CheckBoxes" />
 			 <class name="capitolis.qa.basicauth.BasicAuth" />
 			<class name="capitolis.qa.frames.Frames" />
-			<class name="capitolis.qa.dynamiccontrols.DynamicControls" /> -->
+			<class name="capitolis.qa.dynamiccontrols.DynamicControls" /> 
 			<class name="capitolis.qa.jqueryuimenus.JQUeryUIMenus" />  
 		</classes>
 	</test>
